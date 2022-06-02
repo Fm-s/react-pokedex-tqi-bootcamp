@@ -1,0 +1,63 @@
+.topInfo {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0 0 50% 50%;
+
+}
+
+.dexNumber {
+    width: 100%;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: start;
+    color: rgba(200, 200, 200, 1);
+}
+
+.pokeName {
+    width: 100%;
+    padding-left: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+.cardSprite {
+    width: 100%;
+    text-align: center;
+    height: 120px;
+}
+
+.cardSprite > img {
+    height: 100%;
+}
+
+.typeDiv {
+    width: calc(100% - 30px);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightyellow;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 1px black;
+}
+
+.typeDiv > h2 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.typeDiv > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.typeDiv > div > p {
+    margin: 0px;
+    padding: 0;
+    padding-left: 6px;
+}

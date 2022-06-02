@@ -1,0 +1,187 @@
+.pokeFrame {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background-image: url("/public/poke-bg.png");
+    background-repeat: repeat repeat;
+}
+
+.pokeDex {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 20px;
+    max-width: 400px;
+    height: fit-content;
+    padding: 8px;
+    background-color: #DC0C2D;
+    border: 3px solid black;
+    border-radius: 30px 30px 20px 20px;
+}
+
+.dexHead {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    height: 59px;
+    width: calc(50% - 2px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 30px 0px 0px 0%;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.bigBulb {
+    width: 48%;
+    text-align: end;
+}
+
+.litleBulb {
+    padding: 5px;
+    overflow: hidden;
+}
+
+.litleBulb > div {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;;
+    border: 1px solid black;
+}
+
+
+.pokeDexText {
+    width: calc(50% - 2px);
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 0% 30px 0px 0px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    
+}
+
+.pokeDexText > h2 {
+    margin: 0;
+}
+
+.innerDex {
+    width: 100%;
+    height: calc(100vh - 300px);
+    overflow-y: scroll;
+    background-color: lightgoldenrodyellow;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    
+}
+
+.dexBottom {
+    padding: 10px;
+    height: 59px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    border-left: 2px solid black;
+    border-bottom: 1px solid black;
+    border-right: 2px solid black;
+}
+
+.dexBottomButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 5px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: darkred;
+    overflow: hidden;
+    
+}
+
+.dexBottomButton > button {
+    background-color: red;
+    height: 44px;
+    width: 44px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+.dexBottomButton > button:hover {
+    background-color: darkred;
+}
+
+.dexBottomButton > button > img {
+    width: 100%;
+}
+
+.dexBottomScreen {
+    max-width: 240px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #03A83B;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+/* PokeCard.js */
+.cardBG {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    margin: 8px;
+    min-width: 160px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 1px black;
+}
+
+
+.cardSprite {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
+}
+
+.cardSide {
+    width: 70%;
+}
+
+.cardName {
+    color: white;
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.cardTypes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.cardTypes > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.cardNumber {
+    padding-right: 5px;
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: end;
+    color: rgba(200, 200, 200, 0.6);
+}
