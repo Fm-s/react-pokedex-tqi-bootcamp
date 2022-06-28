@@ -5,7 +5,7 @@ const PokeTypes = ({ types, nav, namedIcons = false }) => {
     return (
       <div>
         <div onClick={nav.bind(null, el.type.url)} className={`icon ${el.type.name}`}>
-          <img src={`icons/${el.type.name}.svg`} alt={el.type.name} />
+          <img src={require(`../assets/icons/${el.type.name}.svg`)} alt={el.type.name} />
         </div>
         <p>{namedIcons && el.type.name}</p>
       </div>

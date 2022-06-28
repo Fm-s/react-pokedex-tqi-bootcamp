@@ -1,4 +1,5 @@
 import styles from "./pokeStyles.module.css";
+import pokeBulb from "../assets/pokedex-big-bulb.png";
 
 const DexHead = (props) => {
   return (
@@ -6,7 +7,7 @@ const DexHead = (props) => {
       <div className={styles.dexHead}>
         
           <div className={styles.bigBulb}>
-            <img src="pokedex-big-bulb.png" alt="PokeBulb" />
+            <img src={pokeBulb} alt="PokeBulb" />
           </div>
           <div style={{display:"flex", flexWrap: "warp"}}>
           <div className={styles.litleBulb}>

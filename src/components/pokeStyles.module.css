@@ -3,7 +3,7 @@
     width: 100%;
     height: 100vh;
     justify-content: center;
-    background-image: url("/public/poke-bg.png");
+    background-image: url("../assets/poke-bg.png");
     background-repeat: repeat repeat;
 }
 
@@ -13,6 +13,7 @@
     align-content: flex-start;
     margin-top: 20px;
     max-width: 400px;
+    height: -moz-max-content;
     height: fit-content;
     padding: 8px;
     background-color: #DC0C2D;
