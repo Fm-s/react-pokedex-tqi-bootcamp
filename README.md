@@ -6,7 +6,7 @@ https://fm-s.github.io/react-pokedex-tqi-bootcamp
 
 
 
-> ### 📝 Tecnologias Utilizadas
+> ### 📝 Utilized Resources
 >- Visual Studio Code
 >- Dependencies imported with create-react-app
 >- Pokemon Types Icons from https://github.com/duiker101/pokemon-type-svg-icons
